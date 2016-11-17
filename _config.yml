@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.jpg"
-    high_res_favicon: "/img/favicon.jpg"
-    apple_touch_icon: "/img/favicon.jpg"
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
     keywords: RoboCup, Humanoid, ZJUDancer, robot, scoccer
 
 # Jump Links Settings
@@ -67,7 +67,7 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.jpg"
+    avatar: "/img/avatar.png"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
@@ -122,7 +122,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key:
 
 # Leancloud Views
