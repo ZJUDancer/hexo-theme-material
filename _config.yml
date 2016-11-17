@@ -4,16 +4,16 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
-    keywords:
+    favicon: "/img/favicon.jpg"
+    high_res_favicon: "/img/favicon.jpg"
+    apple_touch_icon: "/img/favicon.jpg"
+    keywords: RoboCup, Humanoid, ZJUDancer, robot, scoccer
 
 # Jump Links Settings
 url:
-    rss:
+    rss: atom.xml
     daily_pic: "#"
-    logo:
+    logo: "#"
 
 
 # ---------------------------------------------------------------
@@ -22,11 +22,11 @@ url:
 
 # Schemes
 scheme: Paradox
-#scheme: Isolation
+# scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Towards champion in RoboCup 2017"
+    slogan: "Towards the 1st place in RoboCup 2017"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -84,13 +84,14 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 # SNS Menu
 sns:
     email: zjudancer@gmail.com
-    twitter:
-    facebook:
-    googleplus:
+    twitter: https://twitter.com/zjudancer
+    facebook: https://www.facebook.com/zjudancer/
+    googleplus: https://plus.google.com/112318353598247877116
     weibo:
     instagram:
     tumblr:
     github: https://github.com/ZJUDancer
+    # youtube: https://www.youtube.com/user/ZJUDancer
 
 # Sidebar User Dropdown
 dropdown:
