@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
+    favicon: "/img/robot-logo.png"
+    high_res_favicon: "/img/robot-logo.png"
+    apple_touch_icon: "/img/robot-logo.png"
     keywords: RoboCup, Humanoid, ZJUDancer, robot, scoccer
 
 # Jump Links Settings
@@ -66,7 +66,7 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
+    logo: "/img/robot-logo.png"
     avatar: "/img/avatar.png"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
