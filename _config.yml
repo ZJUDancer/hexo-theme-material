@@ -115,7 +115,6 @@ pages:
 comment:
     use: "duoshuo"
     shortname: zjudancer
-    duoshuo_thread_key: title
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
