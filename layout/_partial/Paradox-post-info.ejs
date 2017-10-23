@@ -1,26 +1,32 @@
 <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-    
+
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="<%- theme.img.avatar %>" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="<%- url_for(theme.img.avatar) %>" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
         <strong><%= config.author %></strong>
         <span><%= date(page.date, 'MMM DD, YYYY') %></span>
     </div>
-    
+
     <div class="section-spacer"></div>
-	
+
     <!-- Favorite -->
-<!--
-    <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-        <i class="material-icons" role="presentation">favorite</i>
-        <span class="visuallyhidden">favorites</span>
-    </button>
--->
-    
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    <% if(theme.qrcode.enable === true) { %>
+        <%- partial('_widget/qrcode') %>
+    <% } %>
+
     <!-- Tags (bookmark) -->
+    <% if (page.tags && page.tags.length) { %>
     <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
         <i class="material-icons" role="presentation">bookmark</i>
         <span class="visuallyhidden">bookmark</span>
@@ -34,7 +40,10 @@
             separator: '</li><li class="mdl-menu__item">'
         }) %>
     </ul>
-    
+    <% } %>
+
     <!-- Share -->
-    <%- partial("_partial/post-info-share") %>
+    <% if(page.hide_share !== true) { %>
+        <%- partial('_partial/post-info-share') %>
+    <% } %>
 </div>
